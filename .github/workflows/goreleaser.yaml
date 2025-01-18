@@ -29,3 +29,11 @@ jobs:
           args: release --clean ${{ env.GORELEASER_FLAGS }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Upload all builds
+        uses: actions/upload-artifact@v4
+        with:
+          name: builds
+          path: |
+            dist/*.zip
+            dist/*.txt
+            dist/*.json
