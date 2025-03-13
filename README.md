@@ -2,6 +2,10 @@
 
 This is a program to download your purchased Kindle books from Amazon.
 
+**NOTE - this program no longer works**
+
+Amazon [removed the Download and Transfer option](https://www.reddit.com/r/kindle/comments/1inr9uy/fyi_amazon_is_removing_download_transfer_option/) it depends on, on February 26, 2025.
+
 ## Usage
 
 First download the latest kindledl binary from the [releases page](https://github.com/ncw/kindledl/releases/latest).
